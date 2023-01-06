@@ -25,11 +25,11 @@ main{
 /* header section starts*/
 header{
     height: 100vh;
-    background-image: url('images/donation1.jpg');
+    background-image: url('images/donation8.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: rgb(90, 78, 78);
-    background-blend-mode: overlay;
+    background-color: rgb(71, 65, 65);
+    background-blend-mode: multiply;
     color: #FFFFFF;
     text-align: center;
     display: flex;
@@ -187,8 +187,97 @@ input::placeholder{
 /* plan section ends */
 
 /* depend section starts */
+.depend{
+    display: flex;
+}
 
 
+.depend-left{
+    width: 50%;
+}
+
+.depend-left h3{
+    font-size: 45px;
+    font-weight: 700;
+    color: #181818;
+    width: 75%;
+}
+
+.depend-left p{
+    font-size: 16px;
+    /* font-weight: 600; */
+    color: #707070;
+    width: 75%;
+    line-height: 20px;
+    margin: 30px 0;
+}
+
+.depend-right{
+    width: 50%;
+    height: 300px;
+}
+
+.update-container{
+    height: 200px;
+    background-color: #FFF4D6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.update-container input[type="email"]{
+    padding: 15px 0;
+    width: 40%;
+    background-color: #FFF4D6;
+    color: #D7D7D7;
+    border: 0;
+}
+
+.bg{
+    background-color: red;
+
+}
+.btn-submit{
+    
+    padding: 12px 45px;
+    background-color: #ff5959;
+    border: 0;
+    color: #FFFFFF;
+    border-right: 1px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-right: 61px;
+}
+.update-container input{
+    background-color: white !important;
+     padding-left: 20px;
+}
+
+.update-container input::placeholder{
+    background-color: #FFF4D6;
+    padding: 15px 0;
+    color: #D7D7D7;
+}
 
 
 /* depend section ends */
+
+/* footer */
+footer{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #181818;
+    color: #ece9e9;
+    margin-top: 130px;
+    text-align: center;
+}
+
+.footer-title{
+    color: #ff5959;
+    font-size: 35px;
+    margin-bottom: 15px;
+    font-family: 'Dancing Script', cursive;
+}
