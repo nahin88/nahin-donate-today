@@ -18,6 +18,10 @@ section{
     margin-top: 130px;
 }
 
+main{
+    max-width: 1140px;
+    margin: auto;
+}
 /* header section starts*/
 header{
     height: 100vh;
@@ -50,3 +54,141 @@ header{
     font-weight: 600;
 }
 /* header section ends*/
+
+/* donate section starts*/
+.donate{
+    text-align: center;
+}
+
+.donate-title{
+    font-size: 45px;
+    font-weight: 700;
+    color: #181818;
+}
+
+.donate-description{
+    font-size: 16px;
+    font-weight: 600;
+    color: #707070;
+    width: 65%;
+    line-height: 30px;
+    margin: 30px auto;
+}
+
+.donate-container{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 100px;
+}
+
+.donate-value{
+    box-shadow: 10px 10px 10px rgba(24, 24, 24, 0.034) ;
+    height: 130px;
+    width: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fafafa;
+    color: #707070;
+    font-size: 27px;
+}
+
+.donate-value:hover{
+    color: #ff5959;
+    border: 1px solid #ff5959;
+    background-color: #ffc0c0;
+}
+
+.donate input[type="text"]{
+    border: 0;
+    padding: 10px 0;
+    width: 16%;
+    margin-bottom: 10px;
+    
+}
+
+.donate hr{
+    width: 80%;
+    margin-left: 118px;
+}
+input::placeholder{
+    font-size: 18px;
+    color: #b3b3b3;
+    border: 0;
+    padding: 10px 0;
+}
+
+.btn-margin{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+/* donate section ends*/
+
+/* plan section starts */
+
+.donate-plan .plan-center{
+    text-align: center;
+}
+
+.plan-container{
+    display: flex;
+    gap: 20px;
+}
+
+.blue{
+    background-color: #edf5f6;
+}
+
+.blue h3{
+    font-size: 24px;
+    color: #181818;
+}
+.blue p{
+    color: #707070;
+}
+
+.orange{
+    background-color: #ffeeee;
+}
+
+.orange h3{
+    font-size: 24px;
+    color: #181818;
+}
+.orange p{
+    color: #707070;
+}
+
+.yellow{
+    background-color: #fff4d6;
+}
+
+.yellow h3{
+    font-size: 24px;
+    color: #181818;
+}
+.yellow p{
+    color: #707070;
+}
+
+.plan-items{
+    padding: 50px 15px;
+}
+
+.plan-items img{
+    display: flex; 
+}
+
+.plan-items h3{
+    margin: 30px 0;
+}
+
+/* plan section ends */
+
+/* depend section starts */
+
+
+
+
+/* depend section ends */
