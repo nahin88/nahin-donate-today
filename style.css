@@ -249,9 +249,10 @@ input::placeholder{
     font-weight: 600;
     margin-right: 61px;
 }
-.update-container input{
-    background-color: white !important;
+.update-container input[type=email]{
+    background: white !important;
      padding-left: 20px;
+    display: flex;
 }
 
 .update-container input::placeholder{
