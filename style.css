@@ -1,10 +1,10 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
 }
 
-.btn-primary{
+.btn-primary {
     padding: 20px 45px;
     background-color: #ff5959;
     border: 0;
@@ -14,16 +14,17 @@
     font-weight: 600;
 }
 
-section{
+section {
     margin-top: 130px;
 }
 
-main{
+main {
     max-width: 1140px;
     margin: auto;
 }
+
 /* header section starts*/
-header{
+header {
     height: 100vh;
     background-image: url('images/donation8.jpg');
     background-repeat: no-repeat;
@@ -35,17 +36,17 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
 
-.header-title{
+.header-title {
     font-size: 65px;
     width: 68%;
     margin: auto;
     font-weight: 700;
 }
 
-.header-description{
+.header-description {
     color: #ece9e9;
     width: 52%;
     line-height: 30px;
@@ -53,20 +54,21 @@ header{
     font-size: 16px;
     font-weight: 600;
 }
+
 /* header section ends*/
 
 /* donate section starts*/
-.donate{
+.donate {
     text-align: center;
 }
 
-.donate-title{
+.donate-title {
     font-size: 45px;
     font-weight: 700;
     color: #181818;
 }
 
-.donate-description{
+.donate-description {
     font-size: 16px;
     font-weight: 600;
     color: #707070;
@@ -75,14 +77,14 @@ header{
     margin: 30px auto;
 }
 
-.donate-container{
+.donate-container {
     display: flex;
     justify-content: space-around;
     margin: 30px 100px;
 }
 
-.donate-value{
-    box-shadow: 10px 10px 10px rgba(24, 24, 24, 0.034) ;
+.donate-value {
+    box-shadow: 10px 10px 10px rgba(24, 24, 24, 0.034);
     height: 130px;
     width: 130px;
     display: flex;
@@ -93,32 +95,33 @@ header{
     font-size: 27px;
 }
 
-.donate-value:hover{
+.donate-value:hover {
     color: #ff5959;
     border: 1px solid #ff5959;
     background-color: #ffc0c0;
 }
 
-.donate input[type="text"]{
+.donate input[type="text"] {
     border: 0;
     padding: 10px 0;
     width: 16%;
     margin-bottom: 10px;
-    
+
 }
 
-.donate hr{
+.donate hr {
     width: 80%;
     margin-left: 118px;
 }
-input::placeholder{
+
+input::placeholder {
     font-size: 18px;
     color: #b3b3b3;
     border: 0;
     padding: 10px 0;
 }
 
-.btn-margin{
+.btn-margin {
     margin-top: 20px;
     margin-bottom: 30px;
 }
@@ -127,83 +130,86 @@ input::placeholder{
 
 /* plan section starts */
 
-.donate-plan .plan-center{
+.donate-plan .plan-center {
     text-align: center;
 }
 
-.plan-container{
+.plan-container {
     display: flex;
     gap: 20px;
 }
 
-.blue{
+.blue {
     background-color: #edf5f6;
 }
 
-.blue h3{
+.blue h3 {
     font-size: 24px;
     color: #181818;
 }
-.blue p{
+
+.blue p {
     color: #707070;
 }
 
-.orange{
+.orange {
     background-color: #ffeeee;
 }
 
-.orange h3{
+.orange h3 {
     font-size: 24px;
     color: #181818;
 }
-.orange p{
+
+.orange p {
     color: #707070;
 }
 
-.yellow{
+.yellow {
     background-color: #fff4d6;
 }
 
-.yellow h3{
+.yellow h3 {
     font-size: 24px;
     color: #181818;
 }
-.yellow p{
+
+.yellow p {
     color: #707070;
 }
 
-.plan-items{
+.plan-items {
     padding: 50px 15px;
 }
 
-.plan-items img{
-    display: flex; 
+.plan-items img {
+    display: flex;
 }
 
-.plan-items h3{
+.plan-items h3 {
     margin: 30px 0;
 }
 
 /* plan section ends */
 
 /* depend section starts */
-.depend{
+.depend {
     display: flex;
 }
 
 
-.depend-left{
+.depend-left {
     width: 50%;
 }
 
-.depend-left h3{
+.depend-left h3 {
     font-size: 45px;
     font-weight: 700;
     color: #181818;
     width: 75%;
 }
 
-.depend-left p{
+.depend-left p {
     font-size: 16px;
     /* font-weight: 600; */
     color: #707070;
@@ -212,12 +218,12 @@ input::placeholder{
     margin: 30px 0;
 }
 
-.depend-right{
+.depend-right {
     width: 50%;
     height: 300px;
 }
 
-.update-container{
+.update-container {
     height: 200px;
     background-color: #FFF4D6;
     display: flex;
@@ -225,7 +231,7 @@ input::placeholder{
     justify-content: center;
 }
 
-.update-container input[type="email"]{
+.update-container input[type="email"] {
     padding: 15px 0;
     width: 40%;
     background-color: #FFF4D6;
@@ -233,12 +239,13 @@ input::placeholder{
     border: 0;
 }
 
-.bg{
+.bg {
     background-color: red;
 
 }
-.btn-submit{
-    
+
+.btn-submit {
+
     padding: 12px 45px;
     background-color: #ff5959;
     border: 0;
@@ -249,23 +256,24 @@ input::placeholder{
     font-weight: 600;
     margin-right: 61px;
 }
-.update-container input[type=email]{
+
+.update-container input[type=email] {
     background: white !important;
-     padding-left: 20px;
+    padding-left: 20px;
     display: flex;
 }
 
-.update-container input::placeholder{
+/* .update-container input::placeholder{
     background-color: #FFF4D6;
     padding: 15px 0;
     color: #D7D7D7;
-}
+} */
 
 
 /* depend section ends */
 
 /* footer */
-footer{
+footer {
     height: 150px;
     display: flex;
     justify-content: center;
@@ -276,9 +284,94 @@ footer{
     text-align: center;
 }
 
-.footer-title{
+.footer-title {
     color: #ff5959;
     font-size: 35px;
     margin-bottom: 15px;
     font-family: 'Dancing Script', cursive;
+}
+
+/* responsive */
+.hide {
+    display: none;
+}
+
+@media screen and (max-width: 576px) {
+    .header-title {
+        width: 100%;
+    }
+
+    .header-description {
+        /* margin: 30px 14px; */
+        font-size: 18px;
+        font-weight: 700;
+        width: 100%;
+    }
+
+    .donate-container,
+    .plan-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .donate-value {
+        border: 1px solid salmon;
+    }
+
+    .donate input[type="text"] {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .donate hr {
+        margin-left: 10%;
+    }
+
+    .depend {
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+
+    .depend-left {
+        width: 100%;
+        /* padding: 20px; */
+        /* margin-top: 50px; */
+    }
+
+    .depend-right {
+        width: 100%;
+        height: 100%;
+    }
+
+    .depend-right>img {
+        width: 100%;
+    }
+
+    .depend-left p,
+    .depend-left h3 {
+        width: 100%;
+        /* margin-left: 20px; */
+    }
+
+    .second-depend {
+        margin-top: 30px;
+    }
+
+    .depend-left h3 {
+        font-size: 36px;
+    }
+
+    .btn-primary {
+        margin-left: 50px;
+    }
+
+    .btn-submit {
+        padding: 12px 18px;
+    }
+
+    .update-container input[type=email] {
+        margin-left: 48px;
+    }
 }
